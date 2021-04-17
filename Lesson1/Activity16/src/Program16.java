@@ -16,10 +16,8 @@ public class Program16 {
         check3.start();
         check4.start();
         check5.start();
-        while (true){
-            if(countThread==5){
-                break;
-            }
+        while (countThread!=5){
+            continue;
         }
         System.out.println("Main: Max= "+solutionMax+", count= "+countDiv+", runtime= "+ time);
     }
